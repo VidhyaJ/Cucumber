@@ -41,7 +41,8 @@ public StepDefinition(){
 	public void i_open(String browsername) throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 		System.out.println("i_open " +browsername);
-		System.out.println("Hello");
+		System.out.println("Hello world");
+		
 		if (browsername.equalsIgnoreCase("Mozilla")){
 		driver= new FirefoxDriver();	
 		}
